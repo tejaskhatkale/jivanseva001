@@ -1,0 +1,10 @@
+<resources>
+    <color name="primaryColor">#2e9bd4</color>
+    <color name="primaryDarkColor">#2e9bd4</color>
+    <color name="accentColor">#03DAC5</color>
+    <color name="backgroundColor">#F2F2F2</color>
+    <color name="textColor">#212121</color>
+    <color name="hintColor">#757575</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+</resources>
+
