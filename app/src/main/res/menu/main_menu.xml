@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item  android:title="Profile" >
+            <menu>
+                <item
+                    android:id="@+id/edit_profile"
+                    android:icon="@drawable/edit"
+                    android:title="Edit Profile"/>
+            </menu>
+        </item>
+
+
+        <item android:title="Menu">
+            <menu>
+
+                <item
+                    android:id="@+id/team"
+                    android:icon="@drawable/web"
+                    android:title="Team Management" />
+
+                <item
+                    android:id="@+id/e_pin"
+                    android:icon="@drawable/web"
+                    android:title="E-Pin Management" />
+
+                <item
+                    android:id="@+id/e_wallet"
+                    android:icon="@drawable/question"
+                    android:title="E-Wallet" />
+
+                <item
+                    android:id="@+id/payout"
+                    android:icon="@drawable/danger"
+                    android:title="Payout" />
+                <item
+                    android:id="@+id/business"
+                    android:icon="@drawable/lock"
+                    android:title="Business Management" />
+
+            </menu>
+        </item>
+
+        <item android:title="Communicate">
+
+            <menu>
+
+                <item
+                    android:id="@+id/report"
+                    android:icon="@drawable/star"
+                    android:title="Report" />
+
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/share"
+                    android:title="Share This App" />
+            </menu>
+        </item>
+
+
+    </group>
+</menu>
